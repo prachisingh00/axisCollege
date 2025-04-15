@@ -1,0 +1,38 @@
+.mainbox6{
+    background-color: rgb(163, 227, 176);
+    top: 10px;
+}
+
+
+.pos-box{
+    position: relative;
+    bottom: 20px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 50px auto;
+    background-color: pink;
+}
+
+img{
+    width: 100%;
+    height: auto;
+   
+}
+.button{
+    position:absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: brown;
+}

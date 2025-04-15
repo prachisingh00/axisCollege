@@ -1,0 +1,72 @@
+.success-container{
+    height: 520px;
+    background-image: url(image/successBG.jpeg);
+    border: 1px solid black;
+    margin: 12px 0;
+    display: flex;
+}
+
+.success-body{
+    position: relative;
+    height: 520px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.success-heading{
+    color: white;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 32px;
+}
+
+.red-line{
+    border: 2px solid red;
+    width:250px;
+    margin:12px auto;
+}
+
+.suc-slider-con{
+    color: white;
+    text-align: center;
+    padding: 32px 24px;
+}
+.success-img{
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+   border: 2px solid red;
+   margin: auto;
+
+}
+.success-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+ }
+
+ .success-img-name{
+    width: 120px;
+   height: 120px;
+   color: white;
+   margin:12px auto;
+   text-align: center;
+ }
+
+ 
+ .success-arrow{
+    position: absolute;
+    font-size: 32px;
+    color: rgb(221, 34, 34);
+    cursor: pointer;
+    bottom: 45%;
+}
+
+.successprev{
+    left: 12px;
+}
+
+.successnext{
+    right: 12px;
+    font-size: 32px;
+    font-weight: 700;
+}

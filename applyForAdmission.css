@@ -1,0 +1,205 @@
+.imageBG img{
+    height: 280px;
+    width: 100%;
+}
+
+.online-registration{
+    background-color: lightgrey;
+    padding: 35px;
+    /* position: relative;
+    top: 20px; */
+}
+.online-registration h1{
+    margin-bottom: 18px;
+    color: rgb(221, 34, 34);
+}
+
+.online-registration p{
+    padding: 32px;
+}
+.list ol{
+    padding-left: 70px;
+}
+.blue-color{
+    color:blue ; 
+}
+
+
+.registration-input-form{
+    background-color:rgb(213, 189, 193);
+    padding: 13px;
+    height: 650px;
+    position: relative;
+    top:40px;
+}
+.registration-input-form h1{
+    color: rgb(221, 34, 34);
+    margin-bottom: 18px;
+}
+.registration-input-form input{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 40px;
+    width: 100%;
+}
+.registration-input-form select{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+.registration-input-form p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.registration-input-form .reg-btn button{
+    background-color: rgb(221, 34, 34);
+    color: white;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    border: none;
+    margin: auto;
+    
+}
+
+
+.registration-form{
+    display: flex;
+    background-color:lightgrey;
+    /* height: auto; */
+    /* width: 100%; */
+
+}
+.explore-container{
+    background-color: lightgrey;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.explore-more{
+    text-align: center;
+    color: rgb(221, 34, 34);
+    font-size: 23px;
+    padding-top: 8px;
+}
+.explore-underline{
+    border: 1px solid red;
+    width:190px;
+    margin:auto;
+
+}
+.explore-icon{
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* width: 250px; */
+    /* padding: 20px 20px; */
+    /* margin-right: 20px; */
+    /* background-color: white; */
+}
+
+.explore-icon i{
+    border: 2px solid black;
+    height: 15px;
+    width: 15px;
+    padding: 12px;
+    border-radius: 50px;
+    justify-content: space-evenly; 
+} 
+.courses-icon-box{
+    box-shadow:0px 0px 2px 2px grey;
+    height:100px;
+    width:120px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.courses-icon-box p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.feestructure-icon-box{
+    box-shadow:0px 0px 2px 2px grey;
+    height:100px;
+    width:120px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.feestructure-icon-box p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.placement-icon-box{
+    box-shadow:0px 0px 2px 2px grey;
+    height:100px;
+    width:120px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.placement-icon-box p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.scholarship-icon-box{
+    box-shadow:0px 0px 2px 2px grey;
+    height:100px;
+    width:120px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.scholarship-icon-box p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.ourcurrent-container{
+    background-color:lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.our-heading{
+    color: rgb(221, 34, 34) ;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 30px;
+}
+.our-underline{
+    border: 1px solid red;
+    width:300px;
+    margin:auto;
+}
+.our-img img{
+    margin-top: 30px;
+    height: 80px;
+    width: 116px;
+}
+
+/* .our-img{
+    display: flex;
+    gap: 10px;
+} */

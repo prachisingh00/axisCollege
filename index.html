@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+<header>
+    <div class="topbar">
+        <div class="icon">
+          <i class="top-icon fa-brands fa-facebook-f"></i>
+          <i class="top-icon fa-brands fa-twitter"></i>
+          <i class="top-icon fa-brands fa-youtube"></i>
+          <i class="top-icon fa-brands fa-instagram"></i>
+          <i class="top-icon fa-brands fa-linkedin-in"></i>
+        </div>
+
+        <div class="top-content">
+              Under the aegis of Axis Educational Society
+         </div>
+    
+        <div class="top-btn">
+             <button id="button"><i class="fa-solid fa-user"></i><a href="applyForAdmission.html"> Apply for Admission 2025-26</a></button>
+
+             <button id="btn" onclick="change()">Dark</button>
+        </div>
+        </div>
+
+ <nav class="navbar">
+    <div class="nav-logo">
+        <h2>
+            <span>Axis</span><br> <span>College</span>
+        </h2>
+        <button id="nav-btn" onclick="hello()">&#9776;</button>
+    
+    </div>
+<!-- /////// -->
+<div class="menu">
+    <ul class="menu-list">
+
+        <li><button id="close-btn">&times;</button></li>
+        <li><a href="index.html">Home </a></li>
+        <li class="aboutUs"><a href="aboutUs.html">About us ^</a>
+            <ul class="about-list">
+                <li><a href="whyAxis.html">Why Axis</a></li>
+                <!-- <hr> -->
+                <li><a href="visionMission.html">Vision & Mission</a></li>
+                <li><a href="chairmanMessage.html">Chairman Message</a></li>
+                <li><a href="directorsMessage.html">Director's Message</a></li>
+                <li class="ourColleges">Our Colleges &#10095;
+                    <ul class="our-list">
+                        <li>AITM-Axis Institute of Tecnology & Managment</li>
+                        <li>AIFT- Axis Institute of FAshion Technology</li>
+                        <li>AIA - Axis Institute of Architecture</li>
+                        <li>ABS - Axis Business School</li>
+                        <li>AIPM-Axis Institute of Planning & Management</li>
+                        <li>AIP-Axis Institute of Pharmacy</li>
+                        <li>AIDE-Axis Institute of Diploma Engineering</li>
+                        <li>AIHE-Axis Institute of Higher Education</li>
+                    </ul>
+                </li>
+                <li class="campus">Campus  &#10095;
+                    <ul class="campus-list">
+                        <li>Virtual Tour</li>
+                        <li>Life at Axis </li>
+                        <li>Facilities</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="courses.html">Courses</a></li>
+        <li class="admission"><a href="admission.html">Admission ^</a> 
+        <ul class="admission-list">
+            <li>Online Registration</li>
+            <li>Academic Overview</li>
+            <li>Eligibility Criteria</li>
+            <li>Scholarship</li>
+            <li>Admission Helpline</li>
+            <li>Mendatory Disclosure</li>
+        </ul>
+        <li><a href="placement.html">Placements</a></li>
+        <li class="newEvent"><a href="newEvent.html">News & Events ^</a>
+            <ul class="newEvent-list">
+                <li>Blog</li>
+                <li>Newsletter</li>
+                <li>WINGS (Coming Soon)</li>
+                <li>Events</li>
+                <li>Researches & Publications</li>
+            </ul>
+        </li>
+        <li> <a href="contact.html">Contact us</a></li>
+    </li>
+    </ul>
+</div>
+ <!-- /////// -->
+
+    <!-- <div class="nav-content"><a href="index.html">Home</a></div>
+    <div class="nav-content"><a href="aboutUs.html">About us</a></div>
+    <div class="nav-content"><a href="courses.html">Courses</a></div>
+    <div class="nav-content"><a href="admission.html">Admission</a></div>
+    <div class="nav-content"><a href="placement.html">Placements</a></div>
+    <div class="nav-content"><a href="newEvent.html">News & Events</a></div>
+    <div class="nav-content"> <a href="contact.html">Contact us</a></div> -->
+
+
+ </nav>
+
+</header>
+
+<main>
+
+    <!-- slider start  -->
+    <section>
+        <div class="slider-container">
+            <div class="slider">
+                <img src="image/slider-1.webp" alt="">
+                <div class="slider-content">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit, at optio delectus deserunt amet, nulla labore eaque quisquam odio assumenda iusto laborum maiores placeat in officia rerum incidunt ipsam facilis modi?</p>
+                </div>
+            </div>
+
+            <div class="slider">
+                <img src="image/slider-2.webp" alt="">
+                <div class="slider-content">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit, at optio delectus deserunt amet, nulla labore eaque quisquam odio assumenda iusto laborum maiores placeat in officia rerum incidunt ipsam facilis modi?</p>
+                </div>
+            </div>
+
+            <div class="slider">
+                <img src="image/slider-3.webp" alt="">
+                <div class="slider-content">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit, at optio delectus deserunt amet, nulla labore eaque quisquam odio assumenda iusto laborum maiores placeat in officia rerum incidunt ipsam facilis modi?</p>
+                </div>
+            </div>
+
+            <div class="slider">
+                <img src="image/slider-4.webp" alt="">
+                <div class="slider-content">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit, at optio delectus deserunt amet, nulla labore eaque quisquam odio assumenda iusto laborum maiores placeat in officia rerum incidunt ipsam facilis modi?</p>
+                </div>
+            </div>
+
+            <div class="slider">
+                <img src="image/slider-5.webp" alt="">
+                <div class="slider-content">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit, at optio delectus deserunt amet, nulla labore eaque quisquam odio assumenda iusto laborum maiores placeat in officia rerum incidunt ipsam facilis modi?</p>
+                </div>
+            </div>
+
+            
+         <span class="arrow prev" onclick="prev(-1)"> &#10094; </span>
+         <span class="arrow next" onclick="prev(1)"> &#10093; </span>
+
+
+
+        </div>
+
+
+    </section>
+    <!-- slider end -->
+    
+
+
+
+    <section>
+        <div class="axis-heading"><h1>Axis Colleges</h1></div>
+        <div class="axis-heading-underline"></div>
+        <div class="paragraph">
+            <p>We are a chain of engineering, medical, protessional studycolleges made up of students, scholars, faculties and staffmembers.
+                <br> Quality Education and reserch are the twin pillars of our colleges and the ambianc is one where young minds can flourish with 
+                <br>new their new ideas and creativity.
+            </p>
+        </div>
+
+        <div class="approved"><h1>Approved and recognized by</h1></div>
+
+        <div class="logo-img">
+            <img src="image/logo7.webp" alt="">
+            <img src="image/logo1.webp" alt="">
+            <img src="image/logo2.webp" alt="">
+            <img src="image/logo3.webp" alt="">
+            <img src="image/logo4.webp" alt="">
+            <img src="image/logo5.webp" alt="">
+            <img src="image/logo6.webp" alt="">
+        </div>
+
+    </section>
+
+<!-- position-image-start -->
+    <section>
+        <div class="position-box">
+          <div class="pos-img">
+            <div class="pos-img-hover">
+                <img src="image/img1.jpeg" alt="">
+            </div>
+             <button class="button">Request Information</button>
+          </div>
+
+          <div class="pos-img">
+            <div class="pos-img-hover">
+                <img src="image/img2.jpeg" alt="">
+            </div>
+              <button class="button">About us</button>
+          </div>
+
+          <div class="pos-img">
+            <div class="pos-img-hover">
+                <img src="image/img3.jpeg" alt="">
+            </div>
+              <button class="button">Virtual Tour</button>
+          </div>
+
+          <div class="pos-img">
+            <div class="pos-img-hover">
+                <img src="image/img4.jpeg" alt="">
+            </div>
+              <button class="button">Apply Online</button>
+          </div>
+        </div>
+        
+    </section>
+    <!-- position-image-end -->
+
+    <div class="Courses-offered"><h2>Courses offered</h2></div>
+    <div class="Courses-offered-underline"></div>
+
+    <!--box-image-content-start  -->
+    <section>
+        <div class="img-content">
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg1.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>M. Tech</h5>
+                    <p>Engineering Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg2.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>B. Tech</h5>
+                    <p>Engineering Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg3.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>B.Arch| Interior Design</h5>
+                    <p>Architecture Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg4.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>B.FAD|Textile Design</h5>
+                    <p>Fashion & Garment Technology</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ///222222 - start///// -->
+        <div class="img-content">
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg5.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>Polytechnic</h5>
+                    <p>Diploma Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg6.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>MBA</h5>
+                    <p>Business Administration</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg7.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>MCA</h5>
+                    <p>Master Degree Program</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg8.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>B. Pharm</h5>
+                    <p>Pharmacy Programs</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+        </div>
+
+          <!-- ////33333- start///// -->
+          <div class="img-content">
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg9.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>D. Pharm</h5>
+                    <p>Pharmacy Programs</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg10.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>B.Sc. Biotech.| BMM</h5>
+                    <p>Medical Programs</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg11.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>B.FA (Fine Arts)</h5>
+                    <p>Fine Arts Program</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg12.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>B.FA (Films)</h5>
+                    <p>Films & Television</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+        </div>
+
+           <!-- ////44444--start// -->
+           <div class="img-content">
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg13.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>BBA</h5>
+                    <p>Professional Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg14.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>BCA</h5>
+                    <p>Professional Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg15.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>Textile Design</h5>
+                    <p>Diploma Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="img-box-1">
+                <div class="hover-image">
+                    <img src="image/timg16.jpeg"  alt="">
+                </div>
+                <div class="box-img-3">
+                    <h5>Garment Technology</h5>
+                    <p>Diploma Courses</p>
+                    <button class="img-content-btn">Explore</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--box-image-content-end  -->
+
+    <div class="testimonials">Testimonials</div>
+    <section>
+        <div class="good"><b>Good</b></div>
+
+        <div class="five-star">
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star" ></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+        </div> 
+        
+        
+     <div class="based-on"><p>Based on <b>1409 reviews</b></p></div>
+
+     <div class="google-img"><img src="image/google.png" alt=""></div>
+
+    </section>
+
+    <!-- comment -->
+    <section>
+        <!-- ** -->
+        <div class="comment">
+
+            <div class="comment-img">
+              
+                <img src="image/googlelogo.png" class="google-logo">
+                <img src="image/girl1.jpeg"  alt="">
+                <p>Priyanka Singh<br>
+                2025-01-25</p>
+                <div class="fivestar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                <br>I am currently pursuing a *Diploma in 
+                <br> Pharmacy*  *Axis College*,and I must 
+                <br>say, It has been an incredible journey 
+                <br> far..... 
+                <br><h4>Read more</h4>
+                </div>
+            </div>
+            <!-- //////////////// -->
+            
+            <div class="comment-img">
+                <img src="image/girl2.jpeg" alt="">
+                <p>manya Singh<br>
+                2025-01-25</p>
+                <div class="fivestar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                <br>Axis Colleges, Kanpur has its name in the
+                <br>map of best learning institutions based on 
+                <br>the quality of education and the friendly 
+                <br>teachers. The college provides a proper...
+                <br><h4>Read more</h4>
+                </div>
+            </div>
+            <!-- /////////////////////// -->
+            
+            
+            <div class="comment-img">
+                <img src="image/T.png" alt="">
+                <p>Tahmina Fatima<br>
+                2025-01-25</p>
+                <div class="fivestar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                <br>I Tahmina fatima student of axis colleges
+                <br>pursuing my degree in bachelor of  
+                <br>pharmacy (1 year) is overwhelmed to 
+                <br>express my gratitude towards my insti..
+                <br><h4>Read more</h4>
+                </div>
+            </div>
+            <!-- //////////////////// -->
+            
+            <div class="comment-img">
+                <img src="image/girl4.jpeg" alt="">
+                <p>Rashmi Singh<br>
+                2025-01-25</p>
+                <div class="fivestar">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                <br>I am currently pursuing a *Diploma in 
+                <br> Pharmacy*  *Axis College*,and I must 
+                <br>say, It has been an incredible journey 
+                <br> far..... 
+                <br><h4>Read more</h4>
+                </div>
+            </div>
+            
+            </div>
+            <!-- /////////////////// -->
+         <!-- ** -->
+
+         <div class="view-btn">View all reviews   &nbsp;&nbsp;  &#10093;</div>
+    </section>
+
+
+    <!-- success story start -->
+    <!-- <section>
+        <div class="success-container">
+            <div class="success-body">
+                <div class="success-heading">
+                    Success Stories
+                </div>
+                <div class="red-line"></div>
+
+                <div class="success-slider">
+                    <div class="suc-slider-con">
+                        <p> "My four years at Axis Colleges have been excellent and amemory to cherish for a lifetime.The yearsspent here have been full of learning opportunities that were 
+                            <br>full of fun and frolic and sometimes with academic grind that one has to go through.The international exposure makes you a better man to face challenges of the 
+                            <br>corporate world."</p>
+                    </div>
+                    <div class="success-img">
+                        <img src="image/student-1.jpeg" alt="">
+                    </div>
+                    <div class="success-img-name">
+                        <p>Panchsheel Kushwaha-B.Tech(cs)</p>
+                        <p>Placed in Accenture</p>
+                    </div>
+                </div>
+                
+                 <div class="success-slider">
+                    <div class="suc-slider-con">
+                      
+                            <p>Axis colleges provided me with the perfect blend of creativity and bussiness acumen through thes BFAD program. thef hands-on learning,
+                                <br>industry exposure, and mentorship helped shapes my entrepreneurial journey. I am grateful for the strong foundation that enabled me to 
+                            <br>establish Maleena Clothing successfully. </p>
+                    </div>
+                    <div class="success-img">
+                        <img src="image/student-2.jpeg" alt="">
+                    </div>
+                    <div class="success-img-name">
+                        <p>Srinithya-Fashion Design, B.FAD</p>
+                        <p>FOUNDER-maleema Clothing</p>
+                    </div>
+                </div> 
+                 <div class="success-slider">
+                    <div class="suc-slider-con">
+                   
+                            <p> Axis Colleges played a pivotal role in shaping my career. The exceptional faculty, world-class training programs, and industry exposure 
+                                <br>empowered me to secure a ₹51 LPA package at Microsoft. I am grateful for the unwavering support, skill-building opportunities, and guidance
+                                <br> that made this achievement possible. Thank you, Axis Colleges!
+                               </p>
+                    </div>
+                    <div class="success-img">
+                        <img src="image/student-3.jpeg" alt="">
+                    </div>
+                    <div class="success-img-name">
+                        <p>Pragati Tiwari-B.TECH</p>
+                        <p>Placed at "Microsoft" </p>
+                    </div>
+                </div> 
+                 <div class="success-slider">
+                    <div class="suc-slider-con">
+                        <p> "My four years at Axis Colleges have been excellent and amemory to cherish for a lifetime.The yearsspent here have been full of learning opportunities that were 
+                            <br>full of fun and frolic and sometimes with academic grind that one has to go through.The international exposure makes you a better man to face challenges of the 
+                            <br>corporate world."</p>
+                    </div>
+                    <div class="success-img">
+                        <img src="image/student-4.jpeg" alt="">
+                    </div>
+                    <div class="success-img-name">
+                        <p>Anjali Gara-B.Tech(CSE)</p>
+                        <p>Placed in Accenture</p>
+                    </div>
+                </div> 
+
+                 
+                
+                <span class="success-arrow  successprev" onclick="controller(-1)"> &#10094; </span>
+                <span class="success-arrow successnext" onclick="controller(1)"> &#10093; </span>
+            </div>
+        </div>
+    </section> -->
+    <!-- success story end -->
+
+    <!-- Numbers -->
+    <section>
+        <div class="number">
+            <div class="num-1">
+                <p id="count"></p>
+                <p>Success Stories...</p>
+            </div>
+            <div class="num-2">
+                <p id="count2"></p>
+                <p>Campus Placement Ratio</p>
+            </div>
+            <div class="num-3">
+                <p id="count3"></p>
+                <p>Companies Visit</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- card-contanier -->
+    <section>
+        <div class="card-contanier">
+            <div class="card-1">
+                <img src="image/card1.jpg" alt="">
+            </div>
+            <div class="card-1">
+                <img src="image/card2.jpg" alt="">
+            </div>
+            <div class="card-1">
+                <img src="image/card3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- text-img-contanier -->
+    <section>
+        <div class="text-img-contanier">
+          
+            <div class="text-img-para">
+                <h1>Center for Excellence</h1>
+                <h4>Industry-relevant Skill Development</h4>
+                <p>Axis Colleges focus on bringing industry-standard tools and      technologies to equip 
+                    <br>our students with a skill set relevant to the real world. The exposure that this 
+                    <br>deeply experiential method of learning brings to our students is one of the key 
+                    <br>secrets to solidifying our position as a center of excellence.</p>
+                    <div class="oracleImg-box">
+                    <div class="oracle-img">
+                        <img src="image/cardIMG7.webp" alt="">
+                        <img src="image/cardIMG1.webp" alt="">
+                        <img src="image/cardIMG3.webp" alt="">
+                        <img src="image/cardIMG4.webp" alt="">
+                    </div>
+                    <div class="oracle-img">
+                        <img src="image/cardIMG5.webp" alt="">
+                        <img src="image/cardIMG6.webp" alt="">
+                        <img src="image/cardIMG2.webp" alt="">
+                        <img src="image/cardIMG8.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="text-img-para">
+                <h1>Industry Partners</h1>
+                <h4>Close tie with Industries</h4>
+                <p>Academic tie-ups with industry leaders allow Axians to develop key competencies, 
+                    <br>including but not limited to project management, business communication, and
+                    <br> team-building skills that are transferable across all job roles in every sector 
+                    <br>imaginable. This puts our graduates in a league that is unmatched..</p>
+                <div class="oracleImg-box">    
+                    <div class="oracle-img">
+                        <img src="image/cardIMG9.webp" alt="">
+                        <img src="image/cardIMG11.webp" alt="">
+                        <img src="image/cardIMG13.webp" alt="">
+                        <img src="image/cardIMG15.webp" alt="">
+                    </div>
+                    <div class="oracle-img">
+                        <img src="image/cardIMG10.webp" alt="">
+                        <img src="image/cardIMG12.webp" alt="">
+                        <img src="image/cardIMG14.webp" alt="">
+                        <img src="image/cardIMG16.jpg" alt="">
+                    </div>
+                </div>    
+
+            </div>
+
+        </div>
+
+        <div class="eligibility-criteria">
+            <div class="text-icon">
+                    <i class="fa-solid fa-user"></i>
+                    Eligibility Criteria
+                 <p>Required Eligibility to Qualify for a specific course</p>
+            </div>
+
+            <div class="text-icon">
+                <i class="fa-solid fa-phone"></i>
+              Admission  Helpline
+             <p>Start Your journey to a bright career ahead</p>
+            </div>
+
+            <div class="text-icon">
+               <i class="fa-solid fa-list"></i>
+              Free Structure
+             <p>Know your fee Structure</p>
+        </div>
+
+        </div>
+    </section>
+
+
+    <!-- Events -->
+    <section>
+        <div class="events">  Events
+                
+            <div class="event-line"></div>
+
+            <div class="event">
+                <!-- Events
+                <div class="event-line"></div> -->
+                <div class="event-img">
+                    <div class="event-img1">
+                        <img src="image/eventIMG1.webp" alt="">
+                    </div>
+                    <div class="event-para"><p>Introduction to Virtual Labs - AITM</p>
+                    </div>
+                    <button>View Details &#10093</button>
+                </div>
+                
+                <div class="event-img">
+                    <div class="event-img1">
+                        <img src="image/eventIMG3.webp" alt="">
+                    </div>
+                    <div class="event-para"><p>Talent Hunt Show - AIDE</p>
+                    </div>
+                    <button>View Details &#10093</button>
+                </div>
+
+                <div class="event-img">
+                    <div class="event-img1">
+                        <img src="image/eventIMG4.webp" alt="">
+                    </div>
+                    <div class="event-para"><p>Module 4 of the AI Training Session-AIP</p>
+                    </div>
+                    <button>View Details &#10093</button>
+                </div>
+
+                <div class="event-img">
+                    <div class="event-img1">
+                        <img src="image/eventIMG5.webp" alt="">
+                    </div>
+                    <div class="event-para"><p>Visit to Indian Railways - AITM</p>
+                    </div>
+                    <button>View Details &#10093</button>
+                </div>
+
+                <!-- <div class="event-img">
+                    <div class="event-img1">
+                        <img src="image/eventIMG6.webp" alt="">
+                    </div>
+                    <div class="event-para"><p>Empowering Students to be Agent Change</p>
+                    </div>
+                    <button>View Details &#10093</button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+     
+    
+    <!-- Guru Randhawa & Fashion Show -->
+<section>
+<div class="fashionShow-box">
+    <div class="guruRandhawa">
+        <div class="guruRandhawa-img">
+            <img src="image/guruRandhawa.webp" alt="">
+        </div>
+        <div class="fashion-show">
+            <img src="image/fashionShow.webp" alt="">
+        </div>
+         </div>
+         <div class="fashion-btn">
+        <button>View All Events</button>
+    </div>
+</div>
+</section>
+
+<!-- Awards & IDAA  -->
+<section>
+    <div class="awards">
+        <div class="award">
+         <div class="award-icon">
+            <i class="fa-solid fa-trophy"></i>
+        </div>
+        <div class="award-heading">
+            Awards & Accolades
+        </div>
+        <div class="award-para">
+            <p>Excellence Award by Dialogue India</p>
+        </div>
+        </div>
+        <div class="idaa">
+            <div class="idaa-icon">
+            <i class="fa-solid fa-image"></i>
+        </div>
+        <div class="idaa-heading">
+            IDAA
+        </div>
+        <div class="idaa-para">
+            <p>Annual Fest of Axis Colleges</p>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- Videos -->
+<section>
+    <div class="videos">Videos
+        <div class="videos-underline"></div>
+        <div class="video">
+            <video src="https://www.youtube.com/watch?v=fBVAKXUuBGw&pp=ygUNYXhpcyBjb2xsZWdlIA%3D%3D" autoplay controls></video>
+        </div>
+
+    </div>
+</section>
+
+<!-- Want Us to Call You? & Training & Skill Building -->
+ <section>
+    <div class="wantus-callYou">
+        <!-- Want Us to Call You ?
+        <div class="wantus-underline"></div> -->
+        <div class="wantus-input">
+            Want Us to Call You ?
+            <div class="wantus-underline"></div>
+            <input type="text"  placeholder="Name"><br>
+            <input type="text"  placeholder="+91 Enter Number Here"><br>
+            <input type="text"  placeholder="Email"><br>
+            <input type="text"  placeholder="Address"><br>
+            <input type="text"  placeholder="">
+            <p>I Authorize Axis Colleges to contact me with latest informations,<br>updates and notifications.</p>
+            <button>Submit</button>
+        </div>
+
+        <div class="training">
+            Training & Skill Building
+            <div class="wantus-underline"></div>
+            <div class="microsoft-img">
+            <div class="training-img-three">
+                <img src="image/client1.jpg" alt="">
+                <img src="image/client3.jpg" alt="">
+                <img src="image/client5.jpg" alt=""><br>
+            </div>
+            <div class="robotics-img-three">
+                <img src="image/client2.jpg" alt="">
+                <img src="image/client4.jpg" alt="">
+                <img src="image/client6.jpg" alt="">
+            </div>    
+            </div>
+        </div>
+    </div>
+ </section>
+
+</main>
+
+
+
+
+<footer>
+
+    <div class="footer">
+        <div >
+            <h2>Address</h2><br>
+            <p><h5>Campus</h5>Axis Knowledge City<br>Hathipur,Rooma,NH+2,Milestone-478,Kanpur(U.P.)</p><br>
+
+            <p><h5>Corporate Office</h5>Axis Educational Society<br>Model Town, Kakadeo,Kanpur-208025(U.P.)</p>
+        </div>
+
+        <div>
+            <h2>Available Courses</h2><br>
+        <div class="available-container">
+            <div class="available-list">
+                &#10093; B.Tech <br>           
+                &#10093; M.Tech<br>
+                &#10093; B. Arch <br>       
+                &#10093; B.FAD <br>
+                &#10093; BFA<br>
+                &#10093; MBA <br>
+                &#10093; MCA <br>
+                &#10093; B.Pharm <br>
+                &#10093; Nursing   <br>
+            </div>
+            <div class="available-list">
+                &#10093; BBA<br>
+                &#10093; BCA<br>
+                &#10093; B.Sc Biotecgnology<br>
+                &#10093; B.Sc. Medical Microbiology<br>
+                &#10093; BALLB<br>
+                &#10093; Polytechnic<br>
+                &#10093; Interior Design<br>
+                &#10093; Textile Design<br>
+                &#10093; Garment Technology
+            </div>
+        </div>
+        </div>
+
+        <div>
+            <h2>Important Links</h2><br>
+            <p>
+                &#10093; Admission Process<br>
+                &#10093; Fees Strucutre<br>
+                &#10093; Eligibility Criteria<br>
+                &#10093; Academic Overview<br>
+                &#10093; Placements<br>
+                &#10093; Facilities<br>
+                &#10093; Campus<br>
+                &#10093; Anti Ragging Policy
+            </p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2><br>
+            <p><i class="fa-solid fa-location-dot"></i> &nbsp;  Campus Location</p><br>
+
+            <p> <i class="fa-solid fa-phone"></i> &nbsp;  Toll Free/Helpline<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1800 313 2464</p><br>
+            
+            <p><i class="fa-solid fa-envelope"></i> &nbsp;    Email:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  contact@axiscollegs.in</p><br>
+            <p><i class="fa-solid fa-square-phone"></i>  &nbsp;  Admission Helpline<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  8853777774, 7607888887</p>
+        </div>
+
+    </div>
+
+    <div class="footer-end">
+        <div class="footer-img">
+         <img src="image/footer-logo.png" alt="">Axis Colleges &copy;2025/All Rights Reserved
+        </div>
+
+        <div class="icon">
+            <i class="top-icon fa-brands fa-facebook-f"></i>
+            <i class="top-icon fa-brands fa-twitter"></i>
+            <i class="top-icon fa-brands fa-youtube"></i>
+            <i class="top-icon fa-brands fa-instagram"></i>
+            <i class="top-icon fa-brands fa-linkedin-in"></i>
+          </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/theme.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/success.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/number.js"></script>
+<script src="js/successStory.js"></script>
+</body>
+</html>
